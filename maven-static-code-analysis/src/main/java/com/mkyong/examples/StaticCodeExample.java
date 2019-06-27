@@ -18,6 +18,11 @@ public class StaticCodeExample {
             s = s + field[i];
         }
 
+	String p = "";
+        for (int i = 0; i < field.length; ++i) {
+            p = p + field[i];
+        }
+
         System.out.println(ip);
 
     }
